@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html {
+    padding: 10px;
+    height: 100%;
+}
+.container {
+    width: 90%;
+    height: 90%;
+    background: red;
+    margin: 30px auto;
+}
+.header {
+    background: aqua;
+    height: 15%;
+    text-align: right;
+    padding: 20px;
+}
+.header > ul > li {
+    display: inline-block;
+    font-size: 50px;
+}
+.right-content,.left-content {
+    background: palegreen;
+    float: left;
+    width:30%;
+    height: 70%;
+}
+.right-content > ul {
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.right-content > ul > li {
+    margin-top: 60px;
+    font-size: 50px;
+    border: 1px solid #000;
+}
+.left-content {
+    background: palegoldenrod;
+    width: 70%;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    width:100%;
+    display: inline-block;
+}
+form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+form > label {
+    display: block;
+    margin-top: 20px;
+    font-size: 50px;    
+}
+.left-content > p {
+    margin-top: 20px;
+    font-size: 50px;
+}
+.input {
+    margin-left: 20px;
+    padding: 20px;
+}
+.btns {
+    margin-top: 50px;
+    width:48%;
+    padding: 20px;
+    float: left;
+}
+.second {
+    margin-left: 10px;
+}
+.footer {
+    background: yellow;
+    clear: both;
+    height: 15%;
+    padding: 20px;
+}
+.footer > p {
+    text-align: center;
+    font-size: 50px;
+}
